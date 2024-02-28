@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidates_details</title>
+</head>
+<body bgcolor="white">
+    <form action="response.html">
+        <fieldset>
+<legend><b>Candidates details</b></legend>
+<label for="name"><b> Full Name</b></label>
+<input type="text" required id="name" placeholder="Harry" >&nbsp; &nbsp;&nbsp;&nbsp;<label for="surname"><b>Surname</b></label>
+<input type="text" required id="name" placeholder="machiraju"><br><br>
+
+<label for="fathername"><b>Father's Name</b></label>
+<input type="text" required id="name" placeholder="Siva prasad">&nbsp; &nbsp;&nbsp;&nbsp;<label for="surname"><b>Surname</b></label>
+<input type="text" required id="name" placeholder="machiraju"><br><br>
+
+<label for="dob"><b>Date of birth</b></label>
+<input type="date" required  id="dob" placeholder="dd/mm/yyyy"><br><br>
+
+<label><b>Gender</b></label><br>
+<input type="radio" required id="Male" name="Gender">
+<label for="male"><b>Male</b></label>
+
+<input type="Radio" required id="Female" name="Gender"> 
+<label for="Female"><b>Female </b></label>
+
+<input type="Radio" required id="Others" name="Gender">
+<label for="others"><b>Others</b></label><br><br>
+
+<label for="cnum"><b>Contact num</b></label>
+<input type="text" required id="number" placeholder="6303366332" pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+<label for="email"><b>Email</b></label>
+<input type="text" required id="email" placeholder="Harry@gmail.com" pattern="[a-z0-9_.]+@[a-z]+.[a-z]{2,50}"><br><br>
+
+<label for="address"><b>Address</b></label>
+<input type="text" required id="address" placeholder="near btm,banglore"><br><br>
+
+<label for="pcode"><b>Pin code</b></label>
+<input type="pincode" required id="pcode"  placeholder="532002"  ><br><br>
+
+<label for="profile"><b>Social profile</b></label><br>
+<input type="text"  placeholder="linkedin">&nbsp;&nbsp;&nbsp;&nbsp;<label for="url"><b>Profile url</b></label>
+<input type="url" placeholder="https://www.linkedin.com/in/harsha-kalyani-java-developer">
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Education details</b></legend>
+            <label for="ctype"><b>Course type</b></label>
+            <input list="ctype"  placeholder="choose below">
+            <datalist id="ctype">
+                <option>Bachelors degree</option>
+                <option>Masters degree</option>
+                <option>pg</option>
+                <option>Management studies</option>
+                <option>Degree</option>
+                <option>Diploma</option>
+                <option>Intermediate</option>
+                <option>Ssc/10th</option>
+                <option>others</option>
+            </datalist><br><br>
+
+            <label for="uname"><b>College/University Name</b></label>
+            <input type="text" required id="uname" placeholder="srk college of engineering" ><br><br>
+
+            <label for="branch"><b>Branch</b></label>
+            <input list="branch" placeholder="choose below"><br><br>
+            <datalist id="branch">
+            <option>Computer science</option>
+            <option>IT</option>
+            <option>Electronics</option>
+            <option>Electrical</option>
+            <option>Civil</option>
+            <option>Mechanical</option>
+            <option Agriculture></option>
+            <option>Applied physics</option>
+            <option>Commerce</option>
+            <option>Mathematics</option>
+            <option>Ecnomics</option>
+            <option>Aerospace</option>
+            <option>others</option>
+            </datalist>
+
+            <label for="cgpa"><b>Cgpa</b></label>
+            <input type="text" required id="c.gpa" placeholder id="7.5"><br><br>
+
+            <label for="cduration"><b>Course duration</b></label>
+            <input type="text" required id="cduration" placeholder="2019-2023" ><br><br>
+
+            <label for="yop"><b>Year of passout</b></label>
+            <input list="yop" placeholder="choose below">
+            <datalist id="yop">
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            </datalist>
+        </fieldset><br>
+
+        <fieldset>
+        <legend><b>Skill Set</b></legend>
+        <label for="skills"></label><b>Skills</b></label>
+         <input list="skills" placeholder="choose below">
+         <datalist id="skills">
+            <option>JAVA</option>
+            <option>PYTHON</option>
+            <option>C++</option>
+            <option>SQL</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Jscript</option>
+            <option>Cad</option>
+            <option>others</option>
+         </datalist>
+        </fieldset> <fieldset>
+            <legend><b>Employbility Details</b></legend><br>
+            <label for="emp"><b>Eligibility</b></label>
+            <input list="emp">
+            <datalist id="emp">
+                <option>Fresher</option>
+                <option>Experienced</option>
+                <option>Working currently</option>
+            </datalist>
+        </fieldset>
+    
+        <fieldset>
+            <legend><b>Accomplishments</b></legend><br>
+            <label for="project"><b>Projects</b>
+            <input type="text" placeholder="Mention projects Name">
+            
+            <label for="pdesc"><b>Project Description</b></label>
+            <input type="text" placeholder="short detail of your project"><br><br>
+            
+            <label for="intern"><b>Internships</b></label>
+            <input type="text" placeholder="Titles of Internship">
+    
+            <label for="interndesc"><b>Internship Description</b></label>
+            <input type="text" placeholder="Details of your Internship">
+        </fieldset>
+    
+        <fieldset>
+       <legend><b>Acheivements</b></legend><br>
+
+       <label for="achiev"><b>Acheivements</label>
+       <input type="text" placeholder="acheived national player award for swimming"><br><br>
+    
+       <label for="certificate"><b>Certificates</b></label><br><br>
+       <label for="name"><b>CertificateName</b></label>
+       <input type="text" placeholder="participation certificate">
+       <label for="desc"><b>Description</b></label>
+       <input type="text" placeholder="mention aboubt your certificates" >
+       <label for="file"><b>File</b></label>
+       <input type="file" placeholder="upload certificate">
+        </fieldset>
+    
+    
+        <fieldset>
+        <legend><b>Declaration</b></legend>
+    
+        <label for="res"><b>Resume upload</b></label>
+        <input type="file" placeholder ="upload resume"><br>
+        <input type="checkbox" required id="Declaration">
+        <label for="Declaration"><b>I hereby delcare that the above   provided details is True
+            And Agree to the terms and conditions.</b></label>
+        </fieldset>
+        <input type="submit" required id="submit">
+    
+    
+    
+       
+    </form>
+</body>
+</html>
